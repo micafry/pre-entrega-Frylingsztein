@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.header-text {
+    display: block;
+    margin: auto
+}
+
+#title {
+    margin-top: 50px;
+    font-size: 60px;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    text-decoration: underline;
+}
+
+#subtitle {
+    color: rgb(223, 5, 125);
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.menu-ul {
+    padding: 0%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.menu-ul a:hover {
+    background-color: rgb(17, 17, 17);
+}
+
+.menu-li {
+
+    display: inline;
+
+}
+
+.menu-li a {
+    text-decoration: none;
+    color: rgb(243, 158, 205);
+    border: 1px rgb(17, 17, 17) solid;
+    padding: 15px;
+    margin-bottom: 50px;
+
+}
+
+#foto-principal {
+    margin-top: 30px;
+    max-width: 100%;
+    height: auto;
+}
+
+#pag-principal {
+    text-align: center;
+}
+
+
+
+.volver {
+    text-align: center;
+}
+
+.volver a {
+
+    color: rgb(240, 87, 171);
+
+}
+
+h3 {
+    font-size: 20px;
+    color: rgb(243, 158, 205);
+}
+
+.animate__fadeIn {
+    animation-duration: 3s
+}
+
+
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+    }
+    
+    .texto-footer {
+        font-size: 11px;
+        opacity: .5;
+    }
+
+    .iconos-footer {
+        background-color: black;
+    }
+
+    .link-footer {
+
+        color: rgb(240, 87, 171);
+    }
+
+    div .iconos{
+        
+    }
