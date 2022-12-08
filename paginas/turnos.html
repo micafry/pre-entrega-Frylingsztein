@@ -18,63 +18,90 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://kit.fontawesome.com/fef358cc79.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <header>
         <section>
-        <div id="pagina-principal">
+            <div id="pagina-principal">
 
-            <h1 id="title" class="header-text">DOLCE VITA</h1>
-            <h2 id="subtitle" class="header-text">ANDREA CASSANO | PELUQUERÍA</h2>
-
-            <nav>
-                <ul class="menu-ul">
-                    <li class="menu-li"><a href="../index.html">Inicio</a> </li>
-                    <li class="menu-li"><a href="./servicios.html">Servicios</a></li> 
-                    <li class="menu-li"><a href="./precios.html">Precios</a></li> 
-                    <li class="menu-li"><a href="./turnos.html">Turnos</a></li> 
-                    <li class="menu-li"><a href="./contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-
-        </div></section>
+                <h1 id="title" class="header-text">DOLCE VITA</h1>
+                <h2 id="subtitle" class="header-text">ANDREA CASSANO | PELUQUERÍA</h2>
 
     </header>
+    <nav>
+        <ul class="menu-ul">
+            <li class="menu-li"><a href="../index.html">Inicio</a> </li>
+            <li class="menu-li"><a href="./servicios.html">Servicios</a></li>
+            <li class="menu-li"><a href="./precios.html">Precios</a></li>
+            <li class="menu-li"><a href="./turnos.html">Turnos</a></li>
+            <li class="menu-li"><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    </div>
+    </section>
+
+
     <main>
-        <div>
-            <h3>Turnos</h3>
 
-            <form action="https://formspree.io/f/mgeqdwpn" method="POST">
-                <label for="fecha">Seleccione una fecha:
-                    <br><input type="datetime-local" id="fecha" name="fecha"></label><br>
-                <br><label for="nombre">Nombre:
-                    <br><input type="text" id="nombre" name="nombre">
-                </label><br>
-       
-               <br> <label for="apellido">Apellido:
-                   <br><input type="text" id="apellido" name="apellido">
-                </label><br>
-                <br><label for="mail">
-                    Mail:
-                    <br><input type="email" id="mail" name="mail">
-                </label><br>
-                <br> <label for="servicio">
-                    Servicio a realizar:
-                    <br><textarea id="servicio" name="servicio" placeholder="Corte, retoque de raíces, etc..."></textarea>
-                </label><br><br>
+        <h3>Turnos</h3>
+        <div class="turnos-container">
+            <div class="animate__zoomIn" id="info-turnos">
+                <p><strong>Información importante a la hora de tomar un turno:</strong><br>
+                    La fecha elegida debe ser de <strong>MARTES</strong> a <strong>SÁBADOS</strong> de 10 a 17 horas. Se
+                    deben indicar los servicios a realizar detalladamente. Para los tratamientos con precios variables
+                    es necesario especificar largo y cantidad de pelo. El turno será confirmado vía e-mail.</p>
+            </div>
+
+            <div id="formulario">
+
+                <form action="https://formspree.io/f/mgeqdwpn" method="POST">
+                    <label for="fecha">Seleccione una fecha:
+                        <br><input type="datetime-local" id="fecha" name="fecha"></label><br>
+                    <br><label for="nombre">Nombre:
+                        <br><input type="text" id="nombre" name="nombre">
+                    </label><br>
+
+                    <br> <label for="apellido">Apellido:
+                        <br><input type="text" id="apellido" name="apellido">
+                    </label><br>
+                    <br><label for="mail">
+                        Mail:
+                        <br><input type="email" id="mail" name="mail">
+                    </label><br>
+                    <br> <label for="servicio">
+                        Servicio a realizar:
+                        <br><textarea id="servicio" name="servicio"
+                            placeholder="Corte, retoque de raíces, etc..."></textarea>
+                    </label><br><br>
 
 
-                <button type="submit" id="boton-enviar">Enviar</button>
-            </form>
-
+                    <button type="submit" id="boton-enviar">Enviar</button>
+                </form>
+            </div>
         </div>
+
     </main>
-    <br>
+
     <div class="volver"><a href="../index.html">Volver a Página Principal</a></div>
     <br><br>
     <footer>
-        © Todos los derechos reservados.
+        <div class="texto-footer">
+            <p>
+                © Todos los derechos reservados.</p>
+        </div>
+        <div class="iconos">
+
+            <button class="iconos-footer"><a href="https://www.instagram.com/dolcevitapeluqueria/"
+                    class="link-footer"><i class="fa-brands fa-instagram"></i></a></button>
+            <button class="iconos-footer"> <a href="https://wa.me/5491141947264" class="link-footer"><i
+                        class="fa-brands fa-whatsapp"></i></a></button>
+        </div>
     </footer>
 </body>
 
