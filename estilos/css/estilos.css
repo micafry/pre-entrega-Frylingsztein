@@ -1,0 +1,206 @@
+/* line 7, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+/* line 14, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* line 18, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+header .header-text {
+  display: block;
+  margin: auto;
+}
+
+/* line 22, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+header #title {
+  margin-top: 50px;
+  font-size: 60px;
+  color: white;
+  font-family: 'DM Serif Display', serif;
+  text-decoration: underline;
+}
+
+/* line 29, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+header #subtitle {
+  color: #df057d;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+/* line 38, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+.menu-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* line 53, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+.menu-li {
+  display: inline;
+}
+
+/* line 56, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+.menu-li a {
+  display: block;
+  color: #f057ab;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* line 64, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+.menu-li a:hover {
+  background-color: black;
+}
+
+/* line 74, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+#foto-principal {
+  margin-top: 30px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 80, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+#pag-principal {
+  text-align: center;
+}
+
+/* line 86, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+.volver {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* line 89, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+.volver a {
+  color: #f057ab;
+}
+
+/* line 98, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+h3 {
+  font-size: 20px;
+  color: #f39ecd;
+}
+
+/* line 104, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+textarea {
+  font-family: 'Inter', sans-serif;
+}
+
+/* line 108, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+footer {
+  margin-top: 50px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 100%;
+}
+
+/* line 113, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+footer .texto-footer {
+  font-size: 11px;
+  opacity: .5;
+}
+
+/* line 118, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+footer .iconos-footer {
+  background-color: black;
+  justify-self: center;
+}
+
+/* line 122, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+footer .link-footer {
+  color: #f057ab;
+}
+
+/* line 130, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+.turnos-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 0 20px 20px 20px;
+  justify-content: center;
+  justify-items: center;
+}
+
+/* line 140, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+.animate__fadeIn {
+  animation-duration: 6s;
+}
+
+/* line 144, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+.animate__zoomIn {
+  animation-duration: 1.5s;
+}
+
+/* line 149, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+.li-contacto {
+  list-style: none;
+}
+
+/* line 154, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+.href-contacto {
+  text-decoration: none;
+  color: #f057ab;
+}
+
+/* line 158, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+div .mapa {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+/* line 164, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+table {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 167, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+table td {
+  border: 1px solid #3d3d3d;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  /* line 2, ../../PreEntrega1Frylingsztein/estilos/scss/_responsive.scss */
+  .menu-li {
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 11, ../../PreEntrega1Frylingsztein/estilos/scss/_responsive.scss */
+  .menu-li {
+    flex-basis: 100%;
+  }
+  /* line 15, ../../PreEntrega1Frylingsztein/estilos/scss/_responsive.scss */
+  .turnos-container {
+    grid-template-columns: 100%;
+  }
+  /* line 21, ../../PreEntrega1Frylingsztein/estilos/scss/_responsive.scss */
+  #info-turnos {
+    padding-bottom: 40px;
+  }
+  /* line 25, ../../PreEntrega1Frylingsztein/estilos/scss/_responsive.scss */
+  #formulario {
+    margin-left: 0;
+    align-content: center;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

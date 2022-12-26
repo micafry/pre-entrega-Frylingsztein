@@ -1,0 +1,29 @@
+@media (max-width: 1024px){
+    .menu-li{
+  flex-basis: 50%;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+
+    .menu-li {
+        flex-basis: 100%
+    }
+
+    .turnos-container {
+        grid-template-columns: 100%;
+
+    }
+
+
+    #info-turnos {
+        padding-bottom: 40px;
+    }
+
+    #formulario {
+        margin-left: 0;
+        align-content: center;
+    }
+}
