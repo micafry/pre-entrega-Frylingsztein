@@ -26,4 +26,14 @@
         margin-left: 0;
         align-content: center;
     }
+
+    .about-container {
+        grid-template-columns: 100%;
+    }
+
+    .servicios {
+        grid-template-columns: 1fr;
+        grid-template-areas: "foto-servicio"
+        "texto-servicio";
+    }
 }

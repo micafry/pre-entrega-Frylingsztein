@@ -1,4 +1,5 @@
-/* line 7, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+@charset "UTF-8";
+/* line 7, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 body {
   background-color: black;
   color: white;
@@ -6,20 +7,20 @@ body {
   font-size: 14px;
 }
 
-/* line 14, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 14, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 header {
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
-/* line 18, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 18, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 header .header-text {
   display: block;
   margin: auto;
 }
 
-/* line 22, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 22, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 header #title {
   margin-top: 50px;
   font-size: 60px;
@@ -28,14 +29,14 @@ header #title {
   text-decoration: underline;
 }
 
-/* line 29, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 29, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 header #subtitle {
   color: #df057d;
   font-size: 20px;
   margin-bottom: 50px;
 }
 
-/* line 38, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 38, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 .menu-ul {
   list-style-type: none;
   margin: 0;
@@ -48,12 +49,12 @@ header #subtitle {
   background-color: #333;
 }
 
-/* line 53, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 53, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 .menu-li {
   display: inline;
 }
 
-/* line 56, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 56, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 .menu-li a {
   display: block;
   color: #f057ab;
@@ -63,46 +64,46 @@ header #subtitle {
   font-size: 16px;
 }
 
-/* line 64, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 64, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 .menu-li a:hover {
   background-color: black;
 }
 
-/* line 74, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 74, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 #foto-principal {
   margin-top: 30px;
   max-width: 100%;
   height: auto;
 }
 
-/* line 80, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 80, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 #pag-principal {
   text-align: center;
 }
 
-/* line 86, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 86, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 .volver {
   text-align: center;
   margin-top: 30px;
 }
 
-/* line 89, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 89, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 .volver a {
   color: #f057ab;
 }
 
-/* line 98, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 98, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 h3 {
   font-size: 20px;
   color: #f39ecd;
 }
 
-/* line 104, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 104, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 textarea {
   font-family: 'Inter', sans-serif;
 }
 
-/* line 108, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 108, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 footer {
   margin-top: 50px;
   display: grid;
@@ -110,24 +111,25 @@ footer {
   grid-template-columns: 100%;
 }
 
-/* line 113, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 114, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 footer .texto-footer {
   font-size: 11px;
   opacity: .5;
 }
 
-/* line 118, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 119, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 footer .iconos-footer {
   background-color: black;
   justify-self: center;
+  border: none;
 }
 
-/* line 122, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 124, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 footer .link-footer {
   color: #f057ab;
 }
 
-/* line 130, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 132, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 .turnos-container {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -136,70 +138,267 @@ footer .link-footer {
   justify-items: center;
 }
 
-/* line 140, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 142, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 .animate__fadeIn {
   animation-duration: 6s;
 }
 
-/* line 144, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 146, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 .animate__zoomIn {
   animation-duration: 1.5s;
 }
 
-/* line 149, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 151, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 .li-contacto {
   list-style: none;
 }
 
-/* line 154, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 156, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 .href-contacto {
   text-decoration: none;
   color: #f057ab;
 }
 
-/* line 158, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 160, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 div .mapa {
   display: flex;
   justify-content: center;
   margin: 40px;
 }
 
-/* line 164, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 166, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 table {
   display: flex;
   justify-content: space-around;
 }
 
-/* line 167, ../../PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+/* line 169, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
 table td {
   border: 1px solid #3d3d3d;
   text-align: center;
 }
 
+/*CHEQUEAR ESTO PORQUE NO ME ESTÁ QUEDANDO COMO QUIERO*/
+/* line 178, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+section .servicios {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 6px;
+  grid-template-areas: "foto-servicio-peluqueria texto-servicio-peluqueria texto-servicio-peluqueria" "texto-servicio-color texto-servicio-color foto-servicio-color" "foto-servicio-tratamientos texto-servicio-tratamientos texto-servicio-tratamientos";
+}
+
+/* line 188, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+#foto-servicio-peluqueria {
+  grid-area: foto-servicio-peluqueria;
+}
+
+/* line 189, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+#texto-servicio-peluqueria {
+  grid-area: texto-servicio-peluqueria;
+}
+
+/* line 190, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+#texto-servicio-color {
+  grid-area: texto-servicio-color;
+}
+
+/* line 191, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+#foto-servicio-color {
+  grid-area: foto-servicio-color;
+}
+
+/* line 192, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+#foto-servicio-tratamientos {
+  grid-area: foto-servicio-tratamientos;
+}
+
+/* line 193, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+#texto-servicio-tratamientos {
+  grid-area: texto-servicio-tratamientos;
+}
+
+/*HASTA ACÁ*/
+/* line 197, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+.foto-servicio {
+  margin-left: 20px;
+  margin-right: 30px;
+  max-width: 200px;
+  border-radius: 300px;
+}
+
+/* line 205, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+.about-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px;
+  justify-content: center;
+  justify-items: center;
+}
+
+/* line 211, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+.about-container :first-child {
+  padding-right: 20px;
+}
+
+/* line 219, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+.texto-servicio a {
+  text-align: center;
+  text-decoration: none;
+  color: #df057d;
+  border: 1px solid white;
+  padding: 5px 15px 5px 15px;
+}
+
+/* line 225, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/estilos.scss */
+.texto-servicio a:hover {
+  color: white;
+  background-color: #df057d;
+  border: 1px solid #f057ab;
+  font-size: 15px;
+}
+
+/* line 1, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/_carousel.scss */
+#carrusel-caja {
+  -moz-animation: automatizacion 15s infinite linear;
+  -o-animation: automatizacion 15s infinite linear;
+  -webkit-animation: automatizacion 15s infinite linear;
+  animation: automatizacion 15s infinite linear;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -ms-transition: all 0.75s ease;
+  -o-transition: all 0.75s ease;
+  transition: all 0.75s ease;
+  width: 300%;
+}
+
+/* line 14, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/_carousel.scss */
+#carrusel-contenido {
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: left;
+  padding-top: 20px;
+}
+
+/* line 22, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/_carousel.scss */
+.carrusel-elemento {
+  float: left;
+  width: 33.333%;
+}
+
+/* line 25, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/_carousel.scss */
+.carrusel-elemento .imagenes {
+  width: 100%;
+  height: auto;
+  align-content: center;
+  margin-bottom: 0;
+}
+
+@-moz-keyframes automatizacion {
+  0% {
+    margin-left: 0;
+  }
+  30% {
+    margin-left: 0;
+  }
+  35% {
+    margin-left: -100%;
+  }
+  65% {
+    margin-left: -100%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  95% {
+    margin-left: -200%;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+
+@-webkit-keyframes automatizacion {
+  0% {
+    margin-left: 0;
+  }
+  30% {
+    margin-left: 0;
+  }
+  35% {
+    margin-left: -100%;
+  }
+  65% {
+    margin-left: -100%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  95% {
+    margin-left: -200%;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+
+@keyframes automatizacion {
+  0% {
+    margin-left: 0;
+  }
+  30% {
+    margin-left: 0;
+  }
+  35% {
+    margin-left: -100%;
+  }
+  65% {
+    margin-left: -100%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  95% {
+    margin-left: -200%;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+
 @media (max-width: 1024px) {
-  /* line 2, ../../PreEntrega1Frylingsztein/estilos/scss/_responsive.scss */
+  /* line 2, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/_responsive.scss */
   .menu-li {
     flex-basis: 50%;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 11, ../../PreEntrega1Frylingsztein/estilos/scss/_responsive.scss */
+  /* line 11, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/_responsive.scss */
   .menu-li {
     flex-basis: 100%;
   }
-  /* line 15, ../../PreEntrega1Frylingsztein/estilos/scss/_responsive.scss */
+  /* line 15, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/_responsive.scss */
   .turnos-container {
     grid-template-columns: 100%;
   }
-  /* line 21, ../../PreEntrega1Frylingsztein/estilos/scss/_responsive.scss */
+  /* line 21, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/_responsive.scss */
   #info-turnos {
     padding-bottom: 40px;
   }
-  /* line 25, ../../PreEntrega1Frylingsztein/estilos/scss/_responsive.scss */
+  /* line 25, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/_responsive.scss */
   #formulario {
     margin-left: 0;
     align-content: center;
+  }
+  /* line 30, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/_responsive.scss */
+  .about-container {
+    grid-template-columns: 100%;
+  }
+  /* line 34, ../../Documents/PreEntrega1Frylingsztein/estilos/scss/_responsive.scss */
+  .servicios {
+    grid-template-columns: 1fr;
+    grid-template-areas: "foto-servicio" "texto-servicio";
   }
 }
 

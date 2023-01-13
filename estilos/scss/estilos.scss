@@ -110,6 +110,7 @@ footer {
     display: grid;
     justify-items: center;
     grid-template-columns: 100%;
+  
     .texto-footer {
         font-size: 11px;
         opacity: .5;
@@ -118,6 +119,7 @@ footer {
     .iconos-footer {
         background-color: $color-fondo;
         justify-self: center;
+        border: none;
     }
     .link-footer {
 
@@ -167,8 +169,70 @@ table {
     td {
         border: 1px solid rgb(61, 61, 61);
       text-align: center;
-      
+   
       }
+
 }
 
+/*CHEQUEAR ESTO PORQUE NO ME ESTÁ QUEDANDO COMO QUIERO*/ 
+section .servicios {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 6px; 
+    grid-template-areas: 
+      "foto-servicio-peluqueria texto-servicio-peluqueria texto-servicio-peluqueria"
+      "texto-servicio-color texto-servicio-color foto-servicio-color"
+      "foto-servicio-tratamientos texto-servicio-tratamientos texto-servicio-tratamientos"; 
+  }
+  #foto-servicio-peluqueria { grid-area: foto-servicio-peluqueria; }
+  #texto-servicio-peluqueria { grid-area: texto-servicio-peluqueria; }
+  #texto-servicio-color { grid-area: texto-servicio-color; }
+  #foto-servicio-color { grid-area: foto-servicio-color; }
+  #foto-servicio-tratamientos { grid-area: foto-servicio-tratamientos; }
+  #texto-servicio-tratamientos { grid-area: texto-servicio-tratamientos; }
+    
+    /*HASTA ACÁ*/
+    
+    .foto-servicio{
+        margin-left: 20px;
+        margin-right: 30px;
+        max-width: 200px;
+        border-radius: 300px;
+       
+    }
+
+    .about-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+       padding: 10px;
+        justify-content: center;
+        justify-items: center;
+            :first-child{
+                padding-right: 20px;
+            }
+    
+     
+    }
+
+    .texto-servicio {
+        a {
+            text-align: center;
+            text-decoration: none;
+            color: $color-secundario;
+            border: 1px solid white;
+            padding: 5px 15px 5px 15px;
+            &:hover {
+                color: $color-primario;
+                background-color: $color-secundario;
+                border: 1px solid $color-terciario;
+              font-size: 15px;
+          
+            }
+    }
+}
+
+
+
+@import "_carousel";
 @import "responsive";
