@@ -15,10 +15,12 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;
+
     .header-text {
         display: block;
         margin: auto
     }
+
     #title {
         margin-top: 50px;
         font-size: 60px;
@@ -26,6 +28,7 @@ header {
         font-family: 'DM Serif Display', serif;
         text-decoration: underline;
     }
+
     #subtitle {
         color: $color-secundario;
         font-size: 20px;
@@ -53,6 +56,7 @@ header {
 .menu-li {
 
     display: inline;
+
     a {
 
         display: block;
@@ -61,13 +65,14 @@ header {
         padding: 14px 16px;
         text-decoration: none;
         font-size: 16px;
+
         &:hover {
             background-color: $color-fondo;
         }
-    
+
     }
 
-  
+
 }
 
 
@@ -86,10 +91,11 @@ header {
 .volver {
     text-align: center;
     margin-top: 30px;
+
     a {
 
         color: $color-terciario;
-    
+
     }
 }
 
@@ -99,6 +105,7 @@ h3 {
 
     font-size: 20px;
     color: rgb(243, 158, 205);
+    padding-left: 30px;
 }
 
 textarea {
@@ -110,17 +117,19 @@ footer {
     display: grid;
     justify-items: center;
     grid-template-columns: 100%;
-  
+
     .texto-footer {
         font-size: 11px;
         opacity: .5;
-    
+
     }
+
     .iconos-footer {
         background-color: $color-fondo;
         justify-self: center;
         border: none;
     }
+
     .link-footer {
 
         color: $color-terciario;
@@ -148,90 +157,202 @@ footer {
 
 }
 
-.li-contacto{
+.li-contacto {
     list-style: none;
-    
+
 }
 
-.href-contacto{
-text-decoration: none;
-color:  $color-terciario}
+.href-contacto {
+    text-decoration: none;
+    color: $color-terciario
+}
 
 div .mapa {
-  display: flex;
-justify-content: center;
-margin: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
 }
 
 table {
-    display:flex;
+    display: flex;
     justify-content: space-around;
+
     td {
         border: 1px solid rgb(61, 61, 61);
-      text-align: center;
+        text-align: center;
+
+    }
+
+}
+
+
+.servicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 40px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "foto-servicio-peluqueria texto-servicio-peluqueria texto-servicio-peluqueria"
+        "texto-servicio-color texto-servicio-color foto-servicio-color"
+        "foto-servicio-tratamientos texto-servicio-tratamientos texto-servicio-tratamientos";
+
+}
+
+
+.servicios,
+.servicios-2 {
+
+    a {
+        text-align: center;
+        text-decoration: none;
+        color: $color-primario;
+        border: 1px solid white;
+        padding: 5px 15px 5px 15px;
+        background-color: $color-terciario;
+      
+
+        &:hover {
+
+            background-color: $color-secundario;
+            border: 2px solid $color-terciario;
+            font-size: 16px;
+
+        }
+
+    }
+}
+
+/*AGREGAR ANIMACIONES*/
+.foto-servicio-peluqueria {
+    grid-area: foto-servicio-peluqueria;
+
+}
+
+.texto-servicio-peluqueria {
+    grid-area: texto-servicio-peluqueria;
+
+}
+
+.texto-servicio-color {
+    grid-area: texto-servicio-color;
+
+
+}
+
+.foto-servicio-color {
+    grid-area: foto-servicio-color;
+}
+
+.foto-servicio-tratamientos {
+    grid-area: foto-servicio-tratamientos;
+padding-bottom: 40px;  
+}
+
+.texto-servicio-tratamientos {
+    grid-area: texto-servicio-tratamientos;
+  
+}
+
+.servicios-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 40px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "texto-servicio-manos-y-pies texto-servicio-manos-y-pies foto-servicio-manos-y-pies"
+        "foto-servicio-maquillaje texto-servicio-maquillaje texto-servicio-maquillaje"
+        ". . .";
    
-      }
+}
+
+.texto-servicio-manos-y-pies {
+    grid-area: texto-servicio-manos-y-pies;
+ 
+}
+
+.foto-servicio-manos-y-pies {
+    grid-area: foto-servicio-manos-y-pies;
+}
+
+.foto-servicio-maquillaje {
+    grid-area: foto-servicio-maquillaje;
 
 }
 
-/*CHEQUEAR ESTO PORQUE NO ME ESTÁ QUEDANDO COMO QUIERO*/ 
-section .servicios {
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr; 
-    gap: 0px 6px; 
-    grid-template-areas: 
-      "foto-servicio-peluqueria texto-servicio-peluqueria texto-servicio-peluqueria"
-      "texto-servicio-color texto-servicio-color foto-servicio-color"
-      "foto-servicio-tratamientos texto-servicio-tratamientos texto-servicio-tratamientos"; 
-  }
-  #foto-servicio-peluqueria { grid-area: foto-servicio-peluqueria; }
-  #texto-servicio-peluqueria { grid-area: texto-servicio-peluqueria; }
-  #texto-servicio-color { grid-area: texto-servicio-color; }
-  #foto-servicio-color { grid-area: foto-servicio-color; }
-  #foto-servicio-tratamientos { grid-area: foto-servicio-tratamientos; }
-  #texto-servicio-tratamientos { grid-area: texto-servicio-tratamientos; }
-    
-    /*HASTA ACÁ*/
-    
-    .foto-servicio{
+.texto-servicio-maquillaje {
+    grid-area: texto-servicio-maquillaje;
+
+}
+
+.texto-servicio-color, .texto-servicio-manos-y-pies {
+    margin-left: 30px;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.texto-servicio-peluqueria, .texto-servicio-tratamientos, .texto-servicio-maquillaje {
+    margin-right: 20px;
+padding-right: 20px;
+text-align: justify;
+
+}
+
+.foto-servicio {
+    margin-left: 80px;
+    margin-right: 0;
+    margin-bottom: 30px;
+    max-width: 200px;
+    border-radius: 100px;
+
+}
+
+
+.ver-mas{
+    margin-top: -180px;
+    text-align: justify;
+    ul, li {
         margin-left: 20px;
-        margin-right: 30px;
-        max-width: 200px;
-        border-radius: 300px;
-       
     }
-
-    .about-container {
-        display: grid;
-        grid-template-columns: 50% 50%;
-       padding: 10px;
-        justify-content: center;
-        justify-items: center;
-            :first-child{
-                padding-right: 20px;
-            }
-    
-     
-    }
-
-    .texto-servicio {
-        a {
-            text-align: center;
-            text-decoration: none;
-            color: $color-secundario;
-            border: 1px solid white;
-            padding: 5px 15px 5px 15px;
-            &:hover {
-                color: $color-primario;
-                background-color: $color-secundario;
-                border: 1px solid $color-terciario;
-              font-size: 15px;
-          
-            }
+    a {
+        margin: 30px;
     }
 }
 
+.about-container {
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: center;
+    justify-items: center;
+    text-align: justify;
+
+    :first-child {
+        margin-right:
+            30px;
+    }
+
+    :last-child {
+        margin-left: 30px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+
+}
+
+
+section .ver-mas {
+    padding-top: 0;
+    margin-top: 0;
+
+}
 
 
 @import "_carousel";
