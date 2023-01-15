@@ -1,30 +1,44 @@
 @media (max-width: 1024px) {
-    .menu-li {
-        flex-basis: 50%;
-    }
 
 .servicios{
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    ""
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+     grid-template-areas: 
+  "foto-servicio-peluqueria texto-servicio-peluqueria" 
+  "texto-servicio-color foto-servicio-color"
+  "foto-servicio-tratamientos texto-servicio-tratamientos"
+  ;
 }
 
-.about-container {
-padding: 10px;
-margin: 10px;
+.servicios-2{
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+     grid-template-areas: 
+    "texto-servicio-manos-y-pies foto-servicio-manos-y-pies"
+  "foto-servicio-maquillaje texto-servicio-maquillaje"
+}
+
+.foto-servicio{
+    max-width: 75%;
+  margin-left: 25px;
+ 
+  
+}
+
+.ver-mas {
+    margin-top: 40px;
+    margin-right: 40px;
+    }
+        .about-container {
+        padding: 10px;
+        margin: 10px;
+
+    }
+
 
 }
 
 
-}
-
-/* 
-
-
---- ALSO AGREGAR LO DE SERVICIOS PARA QUE SE VEA TODO EN TRES Y DOS COLUMNAS EN TABLET Y UNA SOLA COLUMNA EN CELULAR ---
-
-*/
 @media (max-width: 767px) {
 
     .menu-li {
@@ -52,24 +66,21 @@ margin: 10px;
         margin: 10px;
         padding: 5px;
 
- p {
-    margin: 0
-    ;
-    padding: 0;
- }
- :first-child {
-    margin-right:
-        0;
-       margin-bottom: 20px;
-}
+        p {
+            margin: 0;
+            padding: 0;
+        }
 
-:last-child {
-    margin-left: 0;
-    padding-top: 10px;
-}
-}
+        :first-child {
+            margin-right:
+                0;
+            margin-bottom: 20px;
+        }
 
-
+        :last-child {
+            margin-left: 0;
+            padding-top: 10px;
+        }
     }
 
     .servicios {
@@ -115,45 +126,52 @@ margin: 10px;
         margin: -30px 10px 0 20px;
     }
 
+
+
     .foto-servicio {
         max-width: 100%;
-        border-radius: 300px;
         margin: 0;
 
 
     }
 
-  
-    .ver-mas {    
+
+    .ver-mas {
         margin-top: 40px;
         margin-right: 20px;
+
         ul {
             margin-left: 5px;
         }
+
         li {
             margin-left: 0;
         }
 
     }
-  h3 {
-    padding-left: 3px;
- 
-  }
-  h4{
-    text-align: center;
-  }
 
-  .servicios, .servicios-2 {
-    a{
-display:flex;
-     justify-content: center;
-     align-items: center;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 20px;
-
-
-
+    h3 {
+        padding-left: 3px;
 
     }
-  }
+
+    h4 {
+        text-align: center;
+    }
+
+    .servicios,
+    .servicios-2 {
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 25%;
+            margin-right: 25%;
+            margin-top: 20px;
+
+
+
+
+        }
+    }
+}

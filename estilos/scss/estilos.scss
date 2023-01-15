@@ -108,9 +108,13 @@ h3 {
     padding-left: 30px;
 }
 
-textarea {
+#formulario {  
+    textarea {
     font-family: 'Inter', sans-serif;
 }
+
+}
+
 
 footer {
     margin-top: 50px;
@@ -121,6 +125,7 @@ footer {
     .texto-footer {
         font-size: 11px;
         opacity: .5;
+        text-align: center;
 
     }
 
@@ -144,13 +149,12 @@ footer {
     padding: 0 20px 20px 20px;
     justify-content: center;
     justify-items: center;
+        p{
+            padding:20px;
+        }
 
 }
 
-
-.animate__fadeIn {
-    animation-duration: 6s
-}
 
 .animate__zoomIn {
     animation-duration: 1.5s;
@@ -210,6 +214,7 @@ table {
         border: 1px solid white;
         padding: 5px 15px 5px 15px;
         background-color: $color-terciario;
+        margin-top: 30px;
       
 
         &:hover {
@@ -247,6 +252,7 @@ table {
 .foto-servicio-tratamientos {
     grid-area: foto-servicio-tratamientos;
 padding-bottom: 40px;  
+
 }
 
 .texto-servicio-tratamientos {
@@ -303,8 +309,8 @@ text-align: justify;
     margin-left: 80px;
     margin-right: 0;
     margin-bottom: 30px;
-    max-width: 200px;
-    border-radius: 100px;
+    border-radius: 300px;
+    max-width:250px;
 
 }
 
@@ -334,6 +340,7 @@ text-align: justify;
     :first-child {
         margin-right:
             30px;
+       
     }
 
     :last-child {
